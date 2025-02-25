@@ -30,7 +30,7 @@ void InputCommand(char *input, const int len) {
   getchar();      // remove enter
 }
 
-int main(int argc, char **argv) {
+ int main(int argc, char **argv) {
   InitGoogleLog(argv[0]);
   // command buffer
   const int buf_size = 1024;
